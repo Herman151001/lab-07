@@ -59,7 +59,6 @@ fun DriversScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // text field and button to add race locations
         Row (
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
@@ -67,7 +66,7 @@ fun DriversScreen(navController: NavController) {
             TextField(
                 value = location,
                 onValueChange = {
-                    location = it // update location to new value
+                    location = it
                 },
                 label = {
                     Text("FormulaZero Driver Name")

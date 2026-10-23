@@ -30,7 +30,7 @@ class FormulaZeroDriverTest {
             .onNodeWithText("Minion1")
             .assertExists()
 
-        // add race location
+
         composeTestRule
             .onNodeWithTag("addDriverButton")
             .performClick()
